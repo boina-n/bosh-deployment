@@ -18,6 +18,7 @@
   path: /resource_pools/name=vms/cloud_properties?
   value:
     instance_type: m4.xlarge
+    spot_bid_price: 0.0702
     ephemeral_disk:
       type: gp2
       size: 25_000
