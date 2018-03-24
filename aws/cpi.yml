@@ -23,7 +23,6 @@
       type: gp2
       size: 25_000
     availability_zone: ((az))
-    spot_bid_price: 0.1
 
 - type: replace
   path: /disk_pools/name=disks/cloud_properties?
