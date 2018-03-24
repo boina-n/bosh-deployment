@@ -14,10 +14,12 @@ vm_types:
   cloud_properties:
     instance_type: m4.large
     ephemeral_disk: {size: 25_000}
+    spot_bid_price: 0.04
 - name: large
   cloud_properties:
     instance_type: m4.xlarge
     ephemeral_disk: {size: 50_000}
+    spot_bid_price: 0.1
 
 disk_types:
 - name: default
